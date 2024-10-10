@@ -2,7 +2,7 @@
 layout: ../layouts/BlogPost.astro
 title: ML course (free now)
 slug: ml-course
-description: Something
+description: Some machine Learning courses
 tags:
   - technical
 added: 2024-10-09T05:46:14.156Z
