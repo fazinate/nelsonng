@@ -10,9 +10,13 @@ added: 2024-10-11T06:06:09.828Z
 
 🥇 OpenAI's Dominance Challenged
 OpenAI's dominance in AI research has been challenged
+
 Advanced labs like Claude 3.5 Sonnet, Gemini 1.5, and Grok 2 have narrowed the performance gap with GPT-4
+
 Model performance is converging
+
 💡 OpenAI's Reasoning Improvement
+
 Significant improvement in LLM reasoning capabilities
 Shifted computational resources from pre-training and post-training to inference stage
 "Chain-of-thought" technique uses reinforcement learning
