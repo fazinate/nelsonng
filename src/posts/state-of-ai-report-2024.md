@@ -8,48 +8,111 @@ tags:
 added: 2024-10-11T06:06:09.828Z
 ---
 
-CÁC XU HƯỚNG AI TRONG NĂM 2024
-(State of AI Report 2024)
-🥇 Sự thống trị của OpenAI trong nghiên cứu AI đã bị thách thức, với các phòng thí nghiệm tiên tiến khác bắt kịp về hiệu suất. Claude 3.5 Sonnet, Gemini 1.5 và Grok 2 đều đã thu hẹp khoảng cách hiệu suất với GPT-4 khi hiệu suất mô hình hội tụ.
-💡 OpenAI đã cải thiện đáng kể khả năng lập luận của LLM bằng cách chuyển đổi tài nguyên tính toán từ giai đoạn tiền huấn luyện và hậu huấn luyện sang giai đoạn suy luận. Kỹ thuật này, được gọi là "chain-of-thought", sử dụng học tăng cường để mở khóa khả năng giải quyết các bài toán toán học, khoa học và lập trình nhiều lớp mà LLM trước đây gặp khó khăn.
-🔓 Các mô hình nguồn mở đã thu hẹp khoảng cách với các mô hình độc quyền tiên tiến. Llama 3 của Meta, được phát hành theo ba phiên bản từ tháng 4 đến tháng 9 năm 2024, có khả năng cạnh tranh với GPT-4 và Claude 3.5 Sonnet trong các tác vụ lập luận, toán học, đa ngôn ngữ và ngữ cảnh dài.
-⚠️ Mối lo ngại đã được đặt ra về "ô nhiễm tập dữ liệu", trong đó dữ liệu kiểm tra hoặc xác thực bị rò rỉ vào tập huấn luyện. Các nhà nghiên cứu đã phát hiện ra sự sụt giảm hiệu suất đáng kể trong một số trường hợp khi các mô hình được kiểm tra trên một tập dữ liệu mới phản ánh phong cách và độ phức tạp của các điểm chuẩn đã được thiết lập.
-🛠️ Các nhà nghiên cứu đang nỗ lực khắc phục các vấn đề trong các điểm chuẩn được sử dụng rộng rãi. Ví dụ, OpenAI đã cảnh báo rằng SWE-bench, công cụ đánh giá khả năng giải quyết các vấn đề phần mềm trong thế giới thực của mô hình, đã đánh giá thấp khả năng kỹ thuật phần mềm tự động của các mô hình.
-🤔 Có những lo ngại rằng phương pháp đánh giá bằng "vibe" (cảm nhận) của cộng đồng về model ưa thích đang tạo ra những kết quả không chính xác. Bảng xếp hạng LMYS Chatbot Arena cho phép người dùng tương tác với hai chatbot được chọn ngẫu nhiên và cung cấp một đánh giá từ cộng đồng. Tuy nhiên, điều gây tranh cãi là điều này đã dẫn đến việc GPT-4 và GPT-4 Mini nhận được cùng một điểm số, thậm chí GPT-4 Mini còn vượt cả Claude Sonnet 3.5.
-🧠 Các hệ thống neuro-symbolic (thần kinh-biểu tượng) đang trở lại, giúp khắc phục các yếu kém về khả năng lập luận và dữ liệu huấn luyện, 2 yếu tố thường khiến các hệ thống AI gặp khó khăn trong các bài toán và hình học. Một nhóm Google DeepMind/NYU đã tạo ra AlphaGeometry, một công cụ suy diễn biểu tượng đến xử lý vấn đề này.
-✂️ Có thể thu nhỏ các mô hình mà không làm giảm hiệu suất. Nghiên cứu cho thấy các mô hình hoạt động tốt khi bị khéo léo lược bỏ các lớp (mạng thần kinh) sâu hơn. Các lớp này được thiết kế để xử lý thông tin phức tạp, trừu tượng hoặc cụ thể cho tác vụ.
-🧪 Các mô hình chưng cất đang trở nên phổ biến hơn. Các làm là dùng các mô hình lớn để tinh chỉnh và tổng hợp dữ liệu huấn luyện để giúp huấn luyện các mô hình nhỏ. Google đã áp dụng phương pháp này, chưng cất Gemini 1.5 Flash từ Gemini 1.5 Pro, trong khi Gemma 2.9B được chưng cất từ Gemma 2.27B, và Gemma 2B từ một mô hình lớn hơn chưa được phát hành.
-📱 Các mô hình được xây dựng cho thiết bị di động hiện đang cạnh tranh với các mô hình lớn hơn. Các công ty công nghệ lớn đang tìm cách triển khai AI ở quy mô lớn cho người dùng cuối. Họ sử dụng các mô hình LLM và multimodal có hiệu suất cao nhưng nhỏ có thể chạy trên điện thoại thông minh.
-🤏 Việc lượng tử hóa cho kết quả tốt giúp AI sớm được triển khai trực tiếp trên các thiết bị. Giờ đây, có thể giảm yêu cầu về bộ nhớ của LLM bằng cách giảm độ chính xác của các tham số của chúng nhưng vẫn đảm bảo hiệu suất của AI ở mức độ chấp nhận được.
-🧑‍💼 Các nhà nghiên cứu đang đạt được tiến bộ trong việc cá nhân hóa trên thiết bị. Representation fine-tuning (ReFT) điều chỉnh hoạt động bên trong của mô hình tại thời điểm suy luận để điều khiển hành vi của nó. ReFT đỏi hỏi ít hơn 15-65 lần tham số so với các phương pháp tinh chỉnh dựa trên trọng số, khiến nó phù hợp với các ứng dụng trên thiết bị.
-🔗 Các mô hình lai kết hợp cơ chế chú ý với các cơ chế khác đang được quan tâm. Các mô hình này vẫn đảm bảo hoặc còn cải thiện độ chính xác, đồng thời giảm chi phí tính toán và dung lượng bộ nhớ.
-🌱 Dữ liệu tổng hợp đang được áp dụng rộng rãi hơn, nhưng có những lo ngại về "model collapse", xảy ra khi các mô hình được huấn luyện trên quá nhiều dữ liệu tổng hợp.
-🕸️ Dữ liệu web đang được công khai ở quy mô lớn. Hugging Face đã xây dựng một tập dữ liệu 15T token cho việc tiền huấn luyện LLM bằng cách sử dụng 96 CommonCrawl snapshots, tạo ra các LLM vượt trội hơn các mô hình đào tạo trên tập dữ liệu tiền huấn luyện mở khác.
-🔍 Retrieval và embeddings đang được quan tâm nhờ tầm quan trọng của RAG.
-🎯 Ngữ cảnh đã được chứng minh là một yếu tố quan trọng trong hiệu suất của RAG. Tuy nhiên, việc đánh giá RAG vẫn chưa được giải quyết.
-⚡ Các phòng thí nghiệm tiên tiến đang đối mặt với tình trạng thiếu điện và đang nghiên cứu các biện pháp khắc phục. Google DeepMind đã đề xuất một thuật toán tối ưu hóa cho phép đào tạo diễn ra trên nhiều "cụm" thiết bị được kết nối lỏng lẻo, giảm nhu cầu trao đổi dữ liệu thường xuyên.
-🏋️‍♀️ Các nhà nghiên cứu đang khám phá các phương pháp để giảm yêu cầu tính toán đào tạo. Google DeepMind đã phát triển JEST, công cụ chọn lọc các ví dụ đào tạo một cách linh hoạt dựa trên khả năng học của chúng.
-🇨🇳 Các phòng thí nghiệm Trung Quốc đang đóng góp đáng kể cho nghiên cứu AI, dù đang chịu lệnh trừng phạt của Hoa Kỳ.
-🎨 Các mô hình khuếch tán để tạo hình ảnh đang trở nên tinh vi hơn, nhờ các nhà nghiên cứu tìm ra những cải tiến giúp tăng chất lượng đồng thời mang lại hiệu quả cao hơn.
-🧬 AlphaFold 3, phiên bản kế nhiệm của AlphaFold 2, giờ đây có thể mô hình hóa cách các loại thuốc phân tử nhỏ, DNA, RNA và kháng thể tương tác với các mục tiêu protein. Tuy nhiên, quyết định không phát hành mã nguồn của AlphaFold 3 đã gây tranh cãi, dẫn đến một cuộc đua để tạo ra một mô hình hoạt động đầy đủ.
-🦠 DeepMind đã phát hành AlphaProteo, một mô hình tạo sinh có thể thiết kế các chất kết dính protein sub-nanomolar với ái lực tốt hơn gấp 3 đến 300 lần.
-🔄 Phương pháp equivariance (đồng biến), vốn là một ý tưởng cốt lõi trong nghiên cứu AI, đang bị thách thức. Nghiên cứu gần đây cho thấy các mô hình không đồng biến có thể đạt được kết quả tốt hơn trong một số trường hợp.
-🔬 Các mô hình nền tảng đang được phát triển trên nhiều lĩnh vực khoa học khác nhau, bao gồm sinh học, vật liệu vô cơ, hoạt động não bộ và khoa học khí quyển.
-🏆 Một cuộc thi mới, giải thưởng ARC, nhằm mục đích tái tập trung ngành công nghiệp AI vào con đường hướng tới trí tuệ nhân tạo tổng quát (AGI).
-🧩 LLM vẫn gặp khó khăn với các tác vụ lập kế hoạch và mô phỏng. Các nhà nghiên cứu đang khám phá các phương pháp mới để cải thiện khả năng lập kế hoạch và lập luận của những mô hình này.
-🔎 Các thuật toán tìm kiếm chương trình (program search) đang mở ra những khám phá mới trong toán học.
-📈 RL đang thúc đẩy cải tiến hiệu suất VLM.
-🤖 Các nhà nghiên cứu đang khám phá các cách để đào tạo RL agent ở quy mô lớn bằng cách sử dụng các mô hình nền tảng.
-🔬 Các nhà nghiên cứu đang bắt đầu tự động hóa việc nghiên cứu bằng cách sử dụng các mô hình nền tảng.
-🤝 Các phương pháp Ensemble đang thúc đẩy cải tiến hiệu suất mạnh mẽ trong tạo mã.
-🚗 Xe tự lái đang áp dụng nhiều phương thức hơn.
-🎥 Segment Anything, mô hình phân đoạn hình ảnh ấn tượng của Meta, đã được mở rộng sang video.
-🤖 Nghiên cứu robot lại đang trở nên phổ biến.
-⚙️ Các mô hình khuếch tán đang thúc đẩy cải tiến trong việc tạo chính sách và hành động trong robot.
-🔄 Các nhà nghiên cứu đang tìm cách mở rộng dữ liệu về thế giới thực của robot.
-🍎 Apple Vision Pro đang nổi lên như một công cụ nghiên cứu robot cần phải có.
-⚕️ Các mô hình đa phương thức được tinh chỉnh đang đạt được kết quả tiên tiến trong AI y tế.
-💊 Các nhà nghiên cứu đang khám phá các cách để tạo dữ liệu tổng hợp trong y học.
-🏢 AI đang được áp dụng vào các công cụ tự động hóa doanh nghiệp.
-🌍 Cán cân quyền lực toàn cầu trong nghiên cứu AI nói chung vẫn không thay đổi, nhưng giới học thuật đang đóng góp nhiều hơn các công ty.
-🟩 NVIDIA vẫn thống trị thị trường chip AI. Tuy nhiên, một số đối thủ cạnh tranh đang bắt đầu xuất hiện.
+🥇 OpenAI's Dominance Challenged
+OpenAI's dominance in AI research has been challenged
+Advanced labs like Claude 3.5 Sonnet, Gemini 1.5, and Grok 2 have narrowed the performance gap with GPT-4
+Model performance is converging
+💡 OpenAI's Reasoning Improvement
+Significant improvement in LLM reasoning capabilities
+Shifted computational resources from pre-training and post-training to inference stage
+"Chain-of-thought" technique uses reinforcement learning
+Unlocked ability to solve multi-step math, science, and programming problems
+🔓 Open-Source Models Catching Up
+Open-source models narrowing the gap with proprietary advanced models
+Meta's Llama 3, released in three versions from April to September 2024
+Competitive with GPT-4 and Claude 3.5 Sonnet in reasoning, math, multilingual, and long-context tasks
+⚠️ Data Contamination Concerns
+Concerns about "dataset contamination"
+Test or validation data leaking into training sets
+Significant performance drops observed when models tested on new datasets reflecting established benchmark styles and complexity
+🛠️ Benchmark Improvement Efforts
+Researchers working to address issues in widely used benchmarks
+OpenAI warned that SWE-bench, evaluating real-world software problem-solving, underestimated models' automated software engineering capabilities
+🤔 "Vibe" Evaluation Concerns
+Concerns about community "vibe" evaluation method for preferred models
+LMYS Chatbot Arena rankings allow users to interact with randomly selected chatbots and provide community ratings
+Controversial results: GPT-4 and GPT-4 Mini receiving same score, GPT-4 Mini even surpassing Claude Sonnet 3.5
+🧠 Neuro-Symbolic Systems Resurgence
+Addressing weaknesses in reasoning and training data
+Google DeepMind/NYU team created AlphaGeometry, a symbolic reasoning tool for geometry problems
+✂️ Model Pruning Without Performance Loss
+Research shows models perform well when deeper layers are skillfully pruned
+These layers designed to process complex, abstract, or task-specific information
+🧪 Distillation Models Gaining Popularity
+Using large models to refine and synthesize training data for smaller models
+Google applied this method:
+Distilled Gemini 1.5 Flash from Gemini 1.5 Pro
+Gemma 2.9B distilled from Gemma 2.27B
+Gemma 2B from a larger unreleased model
+📱 Mobile-Optimized Models Competing
+Models built for mobile devices now competing with larger models
+Major tech companies deploying AI at scale for end-users
+Using high-performance but small LLM and multimodal models that can run on smartphones
+🤏 Quantization for On-Device AI
+Quantization yields good results for early on-device AI deployment
+Reduces LLM memory requirements while maintaining acceptable AI performance
+🧑‍💼 On-Device Personalization Progress
+Representation fine-tuning (ReFT) adjusts model's internal workings at inference time
+ReFT requires 15-65 times fewer parameters than weight-based fine-tuning methods
+🔗 Hybrid Models Gaining Attention
+Combining attention mechanisms with other mechanisms
+Maintaining or improving accuracy while reducing computational costs and memory usage
+🌱 Synthetic Data Adoption and Concerns
+Wider adoption of synthetic data
+Concerns about "model collapse" when models are trained on too much synthetic data
+🕸️ Large-Scale Web Data Publication
+Hugging Face built a 15T token dataset for LLM pre-training using 96 CommonCrawl snapshots
+Resulting LLMs outperform models trained on other open pre-training datasets
+🔍 Retrieval and Embeddings Focus
+Increased interest due to importance of RAG (Retrieval-Augmented Generation)
+🎯 Context Importance in RAG
+Context proven crucial for RAG performance
+RAG evaluation remains unresolved
+⚡ Power Shortage and Solutions
+Advanced labs facing power shortages
+Google DeepMind proposed optimization algorithm for training across loosely connected device "clusters"
+🏋️‍♀️ Reducing Training Computation Requirements
+Researchers exploring methods to reduce training computational demands
+Google DeepMind developed JEST, flexibly selecting training examples based on learning potential
+🇨🇳 Chinese Labs' Contributions
+Significant contributions to AI research despite U.S. sanctions
+🎨 Advanced Diffusion Models for Image Generation
+Improvements in quality and efficiency
+🧬 AlphaFold 3 Advancements
+Can now model interactions between small molecule drugs, DNA, RNA, antibodies, and protein targets
+Decision not to release AlphaFold 3 source code controversial
+🦠 AlphaProteo Release
+DeepMind's generative model for designing sub-nanomolar protein binders
+3 to 300 times better affinity than previous methods
+🔄 Equivariance Challenged
+Core idea in AI research being challenged
+Recent research shows non-equivariant models can perform better in some cases
+🔬 Foundation Models in Various Scientific Fields
+Development across biology, inorganic materials, brain activity, and atmospheric science
+🏆 ARC Prize
+New competition aiming to refocus AI industry on path to AGI
+🧩 LLM Challenges in Planning and Simulation
+Researchers exploring new methods to improve planning and reasoning capabilities
+🔎 Program Search Algorithms in Mathematics
+Opening new discoveries in mathematics
+📈 RL Driving VLM Performance Improvements
+🤖 Large-Scale RL Agent Training
+Researchers exploring training methods using foundation models
+🔬 Automating Research with Foundation Models
+🤝 Ensemble Methods in Code Generation
+Driving strong performance improvements
+🚗 Multi-Modal Approaches in Self-Driving Cars
+🎥 Segment Anything Extended to Video
+Meta's impressive image segmentation model expanded to video
+🤖 Robot Research Resurgence
+⚙️ Diffusion Models in Robot Policy and Action Generation
+🔄 Expanding Real-World Robot Data
+🍎 Apple Vision Pro as Essential Robot Research Tool
+⚕️ Fine-Tuned Multimodal Models in Medical AI
+Achieving state-of-the-art results
+💊 Synthetic Data Generation in Medicine
+🏢 AI in Enterprise Automation Tools
+🌍 Global AI Research Power Balance
+Generally unchanged, but academia contributing more than companies
+🟩 NVIDIA's Continued Dominance
+(Note: The last point seems to be cut off in the original text)
